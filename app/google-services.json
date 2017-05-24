@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "290180470938",
+    "firebase_url": "https://professional-buddies-revised.firebaseio.com",
+    "project_id": "professional-buddies-revised",
+    "storage_bucket": "professional-buddies-revised.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290180470938:android:e416ec083898bb3d",
+        "android_client_info": {
+          "package_name": "com.professionalbuddies.pb_revised"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290180470938-2gogqsm8a538ols4sc8r4n4nuoev4bge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyW7PJjyAHR3L5EXqiZ8g7uq_ssJfPg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
