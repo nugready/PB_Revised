@@ -79,6 +79,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         if (task.isSuccessful()) {
                             //start profile activity
                             finish();
+                            Toast.makeText(LoginActivity.this, "Welcome back\n"+firebaseAuth.getCurrentUser().getEmail()+".", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                         } else {
                             Toast.makeText(LoginActivity.this, "Login Failed:\nInvalid Email/Password Detected.", Toast.LENGTH_SHORT).show();
