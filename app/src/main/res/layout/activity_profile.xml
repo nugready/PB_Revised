@@ -33,5 +33,15 @@
             android:layout_gravity="center_horizontal"
             android:text="Logout"
             android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/buttonCustomizeProfile"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Customize Profile"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
