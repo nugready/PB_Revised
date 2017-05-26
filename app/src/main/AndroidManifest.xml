@@ -20,8 +20,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".LoginActivity"
+            android:label="Login Screen"
+            />
+        <activity android:name=".ProfileActivity"
+            android:label="Profile Page"
+            />
+        <activity android:name=".CustomizeProfile"
+                  android:label="Customize Profile"
+            />
+
+
     </application>
 
 </manifest>
