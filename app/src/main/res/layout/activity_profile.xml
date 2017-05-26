@@ -15,7 +15,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.0"
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/textViewUserEmail"
@@ -26,9 +27,11 @@
 
         <Button
             android:id="@+id/buttonLogout"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:text="Logout"
-            android:layout_gravity="center_horizontal"/>
+            android:textAppearance="@style/TextAppearance.AppCompat" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

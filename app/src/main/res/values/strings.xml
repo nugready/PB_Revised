@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PB_Revised</string>
+    <string name="profile_profession">PROFESSION</string>
+    <string name="profile_university">UNIVERSITY</string>
+    <string name="profile_education">EDUCATION</string>
+    <string name="profile_age">AGE</string>
+    <string name="profile_name">NAME</string>
+    <string name= "profile_pic">Upload a picture</string>
 </resources>
