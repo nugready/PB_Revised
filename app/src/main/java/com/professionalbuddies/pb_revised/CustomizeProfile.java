@@ -69,7 +69,7 @@ public class CustomizeProfile extends AppCompatActivity implements View.OnClickL
         FirebaseUser user = firebaseAuth.getCurrentUser();
         databaseReference.child(user.getUid()).setValue(thisUser);
 
-        Toast.makeText(this, "Profile Update.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Profile Updated.", Toast.LENGTH_LONG).show();
     }
 
     @Override
