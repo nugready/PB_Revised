@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f7f9f9"
     tools:context="com.professionalbuddies.pb_revised.MainActivity">
 
     <LinearLayout
@@ -49,13 +50,15 @@
         <Button
             android:id="@+id/buttonRegister"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:elevation="0dp"
             android:text="Register User"
+            android:background="@drawable/shape"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
-     <TextView
+        <TextView
          android:textAlignment="center"
          android:text="Already have an account?  Sign in here!"
          android:id="@+id/textViewSignin"

@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="Registration Page">
+            android:label="Professional Buddies">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,15 +22,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity"
-            android:label="Login Screen"
+            android:label="Login"
             />
         <activity android:name=".ProfileActivity"
-            android:label="Profile Page"
+            android:label="Profile "
             />
         <activity android:name=".CustomizeProfile"
-                  android:label="Customize Profile"
+                    android:label="Customize Profile"
             />
-
 
     </application>
 
