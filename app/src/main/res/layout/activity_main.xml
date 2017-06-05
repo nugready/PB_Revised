@@ -53,10 +53,13 @@
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:background="@drawable/shape"
             android:elevation="0dp"
             android:text="Register User"
-            android:background="@drawable/shape"
-            android:textAppearance="@style/TextAppearance.AppCompat" />
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
          android:textAlignment="center"

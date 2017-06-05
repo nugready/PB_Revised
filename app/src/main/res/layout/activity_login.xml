@@ -52,9 +52,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Login"
             android:background="@drawable/shape"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:text="Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:textAlignment="center"
