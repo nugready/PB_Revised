@@ -5,5 +5,11 @@
     <color name="colorAccent">#5f5fc4</color>
     <color name="colorBackground">#0090ff</color>
     <color name="colorText">#ffffff</color>
+    <color name="colorLabel">#000000</color>
+    <color name="colorAccent1">#5f5fc4</color>
+    <color name="colorPrimary1">#00838f</color>
+    <color name="colorPrimaryDark1">#005662</color>
+    <color name="backgroundButton">#E8EAF6</color>
+
 
 </resources>
