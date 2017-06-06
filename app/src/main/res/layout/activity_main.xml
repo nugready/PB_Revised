@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     tools:context="com.professionalbuddies.pb_revised.MainActivity">
 
     <LinearLayout
@@ -27,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorText"/>
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -35,7 +37,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:hint="Enter your email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -44,7 +49,10 @@
             android:layout_margin="15dp"
             android:fontFamily="sans-serif"
             android:hint="Enter your password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            />
 
         <Button
             android:id="@+id/buttonRegister"
@@ -53,14 +61,18 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:text="Register User"
-            android:textAppearance="@style/TextAppearance.AppCompat" />
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/shape"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
      <TextView
          android:textAlignment="center"
          android:text="Already have an account?  Sign in here!"
          android:id="@+id/textViewSignin"
          android:layout_width="match_parent"
-         android:layout_height="wrap_content"/>
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorText"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

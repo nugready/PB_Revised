@@ -36,8 +36,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="@string/profile_name"
+                android:text=""
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/nameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_name" />
 
             <EditText
                 android:id="@+id/editTextProfession"
@@ -45,8 +51,15 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="@string/profile_profession"
+                android:text=""
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/professionLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_profession"
+                />
 
             <EditText
                 android:id="@+id/editTextUniversity"
@@ -54,8 +67,15 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="@string/profile_university"
+                android:text=""
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/universityLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_university"
+                />
 
             <EditText
                 android:id="@+id/editTextEducation"
@@ -63,8 +83,16 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text=""
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:id="@+id/educationLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/profile_education"
-                android:textStyle="italic" />
+                />
 
             <EditText
                 android:id="@+id/editTextAge"
@@ -72,8 +100,16 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="@string/profile_age"
+                android:text=""
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_age"
+                />
+
         </LinearLayout>
 
         <ImageButton
@@ -124,7 +160,10 @@
             android:layout_marginRight="8dp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toRightOf="@+id/imageButtonProfilePic"
-            android:layout_marginLeft="8dp" />
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonReturnToProfile"
@@ -143,7 +182,10 @@
             app:layout_constraintLeft_toRightOf="@+id/imageButtonProfilePic"
             android:layout_marginLeft="8dp"
             app:layout_constraintHorizontal_bias="0.504"
-            app:layout_constraintVertical_bias="0.949" />
+            app:layout_constraintVertical_bias="0.949"
+            android:background="@drawable/shape"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
     </android.support.constraint.ConstraintLayout>
 
