@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class ProfileActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FirebaseAuth firebaseAuth;
-    private TextView textViewUserEmail;
+    //private TextView textViewUserEmail;
     private Button buttonLogout;
     private Button buttonCustomizeProfile;
     private DatabaseReference databaseReference;
