@@ -11,6 +11,7 @@ public class UserInformation {
     public String education;
     public String age;
 
+
     public UserInformation() {
         name = "";
         profession = "";
@@ -26,6 +27,16 @@ public class UserInformation {
         this.education = education;
         this.age = age;
     }
+
+    public void setUserName(String theName) { name = theName; }
+
+    public void setProfession(String theProfession) { profession = theProfession; }
+
+    public void setUniversity(String theUniversity) { university = theUniversity; }
+
+    public void setEducation(String theEducation) { education = theEducation; }
+
+    public void setAge (String theAge) { age = theAge; }
 
     public String getUserName()
     {
