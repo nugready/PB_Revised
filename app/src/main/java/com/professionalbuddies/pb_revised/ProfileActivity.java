@@ -63,9 +63,9 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                     theUser.setUniversity(dataSnapshot.child(userId).getValue(UserInformation.class).getUniversity());
                     theUser.setAge(dataSnapshot.child(userId).getValue(UserInformation.class).getAge());
 
-                    name.setText(theUser.getUserName());
-                    profession.setText(theUser.getProfession());
-                    age.setText(theUser.getAge());
+                    name.setText("Name:  " + theUser.getUserName());
+                    profession.setText("Profession:  " + theUser.getProfession());
+                    age.setText("Age:  " + theUser.getAge());
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
