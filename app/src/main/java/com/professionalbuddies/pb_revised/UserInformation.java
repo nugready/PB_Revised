@@ -26,4 +26,30 @@ public class UserInformation {
         this.education = education;
         this.age = age;
     }
+
+    public String getUserName()
+    {
+        return name;
+    }
+
+    public String getProfession()
+    {
+        return profession;
+    }
+
+    public String getUniversity()
+    {
+        return university;
+    }
+
+    public String getEducation()
+    {
+        return education;
+    }
+
+    public String getAge()
+    {
+        return age;
+    }
+
 }
